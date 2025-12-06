@@ -211,7 +211,7 @@ export default function Home() {
               <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-400/20 rounded-full blur-2xl"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image 
-                  src="https://images.unsplash.com/photo-1542810634-71277d95dc24?q=80&w=2070&auto=format&fit=crop" 
+                  src="/Images/Volonteer.webp" 
                   alt="Volunteers" 
                   width={800}
                   height={600}

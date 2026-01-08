@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Make Them Right Foundation | Kingdom Worship Trust",
+  title: "Make Them Right Foundation | Make Them Right (MTR)",
   description: "We are sourcing stationery, hygiene essentials, and support for those in need.",
 };
 

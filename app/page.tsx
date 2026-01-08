@@ -74,7 +74,7 @@ export default function Home() {
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-20">
           <div className="inline-flex items-center gap-2 mb-6 fade-in-up">
             <span className="h-px w-8 bg-brand-400"></span>
-            <span className="text-brand-400 font-medium tracking-wide uppercase text-sm">Kingdom Worship Trust</span>
+            <span className="text-brand-400 font-medium tracking-wide uppercase text-sm">Make Them Right (MTR)</span>
             <span className="h-px w-8 bg-brand-400"></span>
           </div>
           

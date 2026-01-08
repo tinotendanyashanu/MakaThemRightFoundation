@@ -55,12 +55,12 @@ export default function DonatePage() {
               </div>
               <div>
                 <p className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-1">Account Name</p>
-                <p className="text-xl font-bold text-slate-900">Kingdom Worship Trust</p>
+                <p className="text-xl font-bold text-slate-900">Make Them Right (MTR)</p>
               </div>
               <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
                 <p className="text-sm font-medium text-slate-500 uppercase tracking-wider mb-2">Account Number</p>
                 <p className="text-2xl font-mono font-bold text-slate-900 select-all">
-                  1003123456
+                  
                 </p>
               </div>
             </div>

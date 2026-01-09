@@ -34,6 +34,7 @@ export default function Navbar() {
           <Link href="/" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">Home</Link>
           <Link href="/about" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">About Us</Link>
           <Link href="/projects" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">Projects</Link>
+          <Link href="/school-fees" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">School Fees</Link>
           <Link href="/needs" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">Needs List</Link>
           <Link href="/volunteer" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">Volunteer</Link>
           <Link href="/contact" className="text-sm font-medium text-white/90 hover:text-brand-400 transition-colors">Contact</Link>
@@ -63,6 +64,7 @@ export default function Navbar() {
           <Link href="/" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <Link href="/about" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>About Us</Link>
           <Link href="/projects" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>Projects</Link>
+          <Link href="/school-fees" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>School Fees</Link>
           <Link href="/needs" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>Needs List</Link>
           <Link href="/volunteer" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>Volunteer</Link>
           <Link href="/contact" className="text-base font-medium text-white hover:text-brand-400" onClick={() => setIsMenuOpen(false)}>Contact</Link>

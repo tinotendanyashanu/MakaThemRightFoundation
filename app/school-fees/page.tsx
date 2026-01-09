@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { DollarSign, Users, Target, TrendingUp, Smartphone, Building2, CheckCircle2 } from 'lucide-react';
+import { Smartphone, CheckCircle2 } from 'lucide-react';
 
 export default function SchoolFeesPage() {
   const [selectedTier, setSelectedTier] = useState<number | null>(null);
@@ -53,30 +53,6 @@ export default function SchoolFeesPage() {
       description: 'Complete support for an entire grade level',
       icon: '🏫',
       impact: '~12-14 students',
-    },
-  ];
-
-  const testimonials = [
-    {
-      name: 'Mrs. Chinyere',
-      role: 'Parent, Primary 3',
-      quote:
-        'This program has been a lifesaver for our family. My children can now focus on their studies without worrying about fees.',
-      avatar: '👩',
-    },
-    {
-      name: 'Mr. Ndlela',
-      role: 'School Principal',
-      quote:
-        'We have seen remarkable improvement in attendance and academic performance since students have been able to attend consistently.',
-      avatar: '👨',
-    },
-    {
-      name: 'Tino (Student)',
-      role: 'Secondary 2',
-      quote:
-        'I never thought I would have the chance to go to secondary school. Thanks to this initiative, I can now pursue my dreams.',
-      avatar: '🧑',
     },
   ];
 
@@ -141,7 +117,7 @@ export default function SchoolFeesPage() {
         <div className="mx-auto max-w-7xl">
           <h2 className="text-3xl font-bold text-slate-900 mb-4 text-center">Funding by Grade Level</h2>
           <p className="text-center text-slate-600 mb-12 max-w-2xl mx-auto">
-            Here's how school fees are distributed across different grade levels and our progress in each
+            Here&apos;s how school fees are distributed across different grade levels and our progress in each
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -317,7 +293,7 @@ export default function SchoolFeesPage() {
             <div className="bg-white rounded-lg p-6 border border-slate-100">
               <h3 className="font-bold text-slate-900 mb-3">Can I donate and request a specific grade level?</h3>
               <p className="text-slate-700">
-                Absolutely! When you make a donation, you can specify which grade level you'd like to support. We'll prioritize
+                Absolutely! When you make a donation, you can specify which grade level you&apos;d like to support. We&apos;ll prioritize
                 your donation accordingly.
               </p>
             </div>

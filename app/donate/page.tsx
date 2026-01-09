@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import { Smartphone, Building2 } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Donate | MTR Foundation",
+  description: "Support our cause. Donate via Ecocash, Innbucks, or Bank Transfer to help us provide for Zimbabwe's youth.",
+};
 
 export default function DonatePage() {
   return (

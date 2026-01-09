@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import { BookOpen, Droplets, Smile, CheckCircle2 } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "Needs List | MTR Foundation",
+  description: "View our current needs list including stationery, hygiene supplies, and school uniforms. Your contribution makes a difference.",
+};
 
 export default function NeedsPage() {
   const needs = [

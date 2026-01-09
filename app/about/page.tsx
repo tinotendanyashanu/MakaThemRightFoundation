@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import { Users, Target, Heart } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "About Us | MTR Foundation",
+  description: "Learn about the Make Them Right (MTR) Foundation, our mission to support Zimbabwe's youth, our vision, and our team.",
+};
 
 export default function AboutPage() {
   return (

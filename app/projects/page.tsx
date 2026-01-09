@@ -1,6 +1,12 @@
+import { Metadata } from "next";
 import Image from "next/image";
 import { Calendar, MapPin, ArrowRight } from "lucide-react";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Our Projects | MTR Foundation",
+  description: "Discover our latest projects including Back to School Drives, Hygiene Kit Distribution, and School Fee Support programs.",
+};
 
 export default function ProjectsPage() {
   const projects = [
